@@ -7,6 +7,13 @@ import java.io.IOException;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
+/**
+ * Opens application by clicking the button.
+ * To open a different application, change '/Applications/Microsoft Excel.app' to
+ * the preferred application and also change the button text. 
+ * @author LoganDuck
+ * @version 07/11/18
+ */
 public class OpenApplication {
 	private static JButton button;
 	
