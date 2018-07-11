@@ -28,12 +28,9 @@ public class OpenApplication {
 		button = new JButton("Open Microsoft Excel");
 		button.addActionListener(new OpenApplicationAction());
 		frame.add(button);
-		int frameCenterX = (frame.getWidth() - button.getPreferredSize().width) / 2;
-		int frameCenterY = frame.getHeight() / 2 - button.getPreferredSize().height;
 		
-		button.setBounds(frameCenterX, frameCenterY,
-				button.getPreferredSize().width, button.getPreferredSize().height);
-		
+		button.setBounds(60, 50, 180, 30);
+
 		frame.setVisible(true);
 	}
 }
